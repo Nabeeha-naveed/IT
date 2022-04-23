@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+/* navbar */
+.navbar{
+    text-align: center;
+    background-color: black ;
+    padding: 20px;
+    gap: 1em;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    align-content: space-around; 
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding: 8px;
+    font-size:larger;
+}
+
+li:hover{
+    text-decoration: underline;
+    color: red;
+}
+/* main */
+.main{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
+}
+
+/* button */
+.btn-div {
+    text-align: center;
+    margin: auto;
+}
+
+.btn {
+    text-align: center;
+}
+.button{
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    /* margin: 20px; */
+    border: none;
+    font-size: 20px;
+    background-color: rgb(211, 62, 62);
+}
+
+button:hover{
+    border: 20%;
+    border-color: black;
+    color: blue;
+}
