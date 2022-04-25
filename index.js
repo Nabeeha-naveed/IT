@@ -388,9 +388,36 @@
 //   console.log('false')
 // }
 
+const arr = [2,4,6,8,10, 12]
 
-if(new Date() || "true"){
-  console.log("true")
-}else{
-  console.log("false")
-}
+// let res = []
+
+// for (i = 0; i < arr.length; i++){
+//   console.log(arr[i])
+// }
+
+// Using for in loop
+// let res = []
+// console.log(arr)
+// for (el in arr){
+//   res.push(arr[el]*3)
+// }
+// console.log(res)
+
+// Using for of loop
+// let res = []
+// console.log(arr)
+// for (el of arr){
+//   res.push(el*3)
+// }
+// console.log(res)
+
+
+// Using map method
+// const res = arr.map (el => el*3)
+
+// Using forEach method
+let res = []
+
+arr.forEach( (el,i) => arr[i]=el*3 )
+console.log(arr)
